@@ -6,7 +6,7 @@
 
 # Animaciones CSS con tailwindcss
 
-Este repositorio contiene dos proyectos uno seria el plugin de tailwindcss para animaciones y el otro seria un proyecto de dcoumentacion del plugin. El proyecto busca poder implementar una series diferentes de animaciones que se pueden usar en cualquier proyecto que se este trabajando con tailwindcss.
+Este repositorio contiene dos proyectos uno seria el plugin de tailwindcss para animaciones y el otro seria un proyecto de documentacion del plugin. El proyecto busca poder implementar una series diferentes de animaciones que se pueden usar en cualquier proyecto que se este trabajando con tailwindcss.
 
 Se esta usando lerna para poder manejar los dos proyectos en un mismo repositorio.
 
