@@ -1,0 +1,17 @@
+{
+  
+  "compilerOptions": {
+    "rootDir": ".",
+    "module": "NodeNext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "outDir": "build",
+   
+  },
+  "include": [
+    "./index.ts",
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}

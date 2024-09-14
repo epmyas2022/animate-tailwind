@@ -1,0 +1,33 @@
+{
+  "name": "plugin-tailwindcss",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "scripts": {
+    "build": "tsc ",
+    "watch": "tsc -w",
+    "dev": "node build/index.js",
+    "xd": "node build/test.js",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "typescript": "~5.2.0"
+  },
+  "dependencies": {
+    "@csstools/postcss-minify": "^1.1.0",
+    "plugin-tailwindcss": "file:",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vitest": "^1.2.2"
+  }
+}

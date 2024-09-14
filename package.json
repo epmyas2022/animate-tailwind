@@ -1,0 +1,20 @@
+{
+  "name": "animate-tailwind",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene dos proyectos uno seria el plugin de tailwindcss para animaciones y el otro seria un proyecto de dcoumentacion del plugin. El proyecto busca poder implementar una series diferentes de animaciones que se pueden usar en cualquier proyecto que se este trabajando con tailwindcss.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate-tailwind": "file:",
+    "lerna": "^8.1.8"
+  }
+}
